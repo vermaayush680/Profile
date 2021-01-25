@@ -23,7 +23,7 @@ body
 /* Editing the card contents */
 .card
 {
-	width: 22%;
+	width: 22vw;
 	background-color: #fff;
 	border-radius: 3%;
 	overflow: hidden;
@@ -31,18 +31,29 @@ body
 	text-align: center;
 }
 
+@media only screen and (max-width: 800px) {
+  .card {
+    width: 40vw;
+	background-color: #fff;
+	border-radius: 3%;
+	overflow: hidden;
+	box-shadow: 0 20px 25px rgba(97, 161, 221,0.2);
+	text-align: center;
+  }
+}
+
 /* Card Header CSS */
-.card-head
+.card-header
 {
 	padding: 11% 0;
 	background: linear-gradient(45deg, #396afc, #2948ff);
 }
 
 /* Profile Image CSS */
-.card-head img
+.card-header img
 {
-	width: 35%; 
-	height: 35%;
+	width: 40%; 
+	height: 40%;
 	object-fit: cover;
 	border-radius: 50%;
 	box-shadow: 0 10px 30px rgba(0,0,0,0.4);
@@ -66,12 +77,12 @@ body
 .card-body .username
 {
 	padding-top: 2%;
-	font-size: 1.1vw; 
+	font-size: 1.3vw; 
 	color: #9E9E9E;
 }
 
 /* Adjusting the CSS of the icons */
-.card-body .social-media
+.card-body .social-media-list
 {
 	display: flex;
 	justify-content: center;
@@ -79,7 +90,7 @@ body
 }
 
 /* Designing the link of the icons */
-.card-body .social-media a
+.card-body .social-media-list a
 {
 	text-decoration: none;
 	color: #565656;
@@ -88,13 +99,13 @@ body
 }
 
 /* CSS of the icon when we bring the cursor on the icon */
-.card-body .social-media a:hover
+.card-body .social-media-list a:hover
 {
 	color: #DB124B;
 }
 
 /* Space between the icons */
-.card-body .social-media a:not(:last-child)
+.card-body .social-media-list a:not(:last-child)
 {
 	margin-right: 20%;
 }
@@ -110,7 +121,7 @@ body
 .card-body .btn{
 	display: inline-block;
 	text-decoration: none;
-	padding: 6% 18%;
+	padding: 6% 10%;
 	background: linear-gradient(45deg, #396afc, #2948ff);
 	color: #fff;
 	border-radius: 100px;
