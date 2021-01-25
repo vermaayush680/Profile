@@ -1,0 +1,84 @@
+@media only screen and (max-width: 700px)
+{
+	body
+{
+	min-height: 100vh;
+}
+  .card {
+    width: 40vw;
+  }
+
+  /* Card Header CSS */
+.card-head
+{
+	padding: 13% 0;
+}
+
+/* Profile Image CSS */
+.card-head img
+{
+	width: 50%; 
+	height: 50%;
+}
+
+/* Setting the CSS of the body of the card */
+.card-body
+{
+	padding:11%;
+}
+
+/* Name CSS */
+.card-body h2
+{
+	text-transform: uppercase; 
+	font-size: 3.6vw;
+}
+
+/* Username CSS */
+.card-body .username
+{
+	padding-top: 3%;
+	font-size: 2.6vw; 
+}
+
+/* Adjusting the CSS of the icons */
+.card-body .social-media
+{
+	margin: 15% 0;
+}
+
+/* Designing the link of the icons */
+.card-body .social-media a
+{
+	font-size: 5.6vw;
+}
+
+/* Space between the icons */
+.card-body .social-media a:not(:last-child)
+{
+	margin-right: 20%;
+}
+
+/* CSS of the center about text */
+.card-body .about
+{ 
+	margin-bottom: 21%; 
+	font-size: 3vw;
+}
+
+/* Designing the message button */
+.card-body .btn
+{
+	padding: 6% 10%;
+	border-radius: 100px;
+	margin-bottom: 4%;
+	font-size: 2.2vw;
+}
+
+/* CSS of the button when we bring the cursor on it */
+.card-body .btn:hover
+{ 
+	opacity: 0.8; 
+}
+
+}
