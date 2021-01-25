@@ -43,14 +43,14 @@ body
 }
 
 /* Card Header CSS */
-.card-header
+.card-head
 {
 	padding: 11% 0;
 	background: linear-gradient(45deg, #396afc, #2948ff);
 }
 
 /* Profile Image CSS */
-.card-header img
+.card-head img
 {
 	width: 40%; 
 	height: 40%;
@@ -82,7 +82,7 @@ body
 }
 
 /* Adjusting the CSS of the icons */
-.card-body .social-media-list
+.card-body .social-media
 {
 	display: flex;
 	justify-content: center;
@@ -90,7 +90,7 @@ body
 }
 
 /* Designing the link of the icons */
-.card-body .social-media-list a
+.card-body .social-media a
 {
 	text-decoration: none;
 	color: #565656;
@@ -99,13 +99,13 @@ body
 }
 
 /* CSS of the icon when we bring the cursor on the icon */
-.card-body .social-media-list a:hover
+.card-body .social-media a:hover
 {
 	color: #DB124B;
 }
 
 /* Space between the icons */
-.card-body .social-media-list a:not(:last-child)
+.card-body .social-media a:not(:last-child)
 {
 	margin-right: 20%;
 }
